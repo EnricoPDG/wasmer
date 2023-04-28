@@ -1,0 +1,12 @@
+[package]
+name = "enricopdg/tutorial-1"
+version = "0.1.0"
+description = "A simple calculator"
+
+[[module]]
+name = "tutorial-1"
+source = "tutorial_1.wasm"
+
+[module.bindings]
+wai-version = "0.2.0"
+exports = "calculator.wai"

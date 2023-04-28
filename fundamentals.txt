@@ -1,0 +1,5 @@
+Example adding package with yarn:
+wasmer add --yarn {package} 
+
+Example adding package with pip:
+wasmer add --pip {package}
